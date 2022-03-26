@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: Outfit;
+}
+@media screen and (max-width: 1400px) {
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .color {
+    color: hsl(0, 0%, 100%);
+    color: hsl(212, 45%, 89%);
+    color: hsl(220, 15%, 55%);
+    color: hsl(218, 44%, 22%);
+  }
+
+  footer {
+    align-items: center;
+  }
+  .card {
+    background: hsl(212, 45%, 89%);
+    height: 600px;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-box {
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 100px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+  }
+
+  .card-box img {
+    width: 250px;
+    border-radius: 15px;
+  }
+
+  .cardbox-text {
+    width: 250px;
+    height: 50px;
+  }
+
+  .cardbox-text h1 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .cardbox-text p {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  
+    .color {
+      color: hsl(0, 0%, 100%);
+      color: hsl(212, 45%, 89%);
+      color: hsl(220, 15%, 55%);
+      color: hsl(218, 44%, 22%);
+    }
+  
+    footer {
+      align-items: center;
+    }
+    .card {
+      background: hsl(212, 45%, 89%);
+      height: 600px;
+      /*IMPORTANTE*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card-box {
+      align-items: center;
+      padding: 20px;
+      padding-bottom: 100px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 15px;
+    }
+  
+    .card-box img {
+      width: 250px;
+      border-radius: 15px;
+    }
+  
+    .cardbox-text {
+      width: 250px;
+      height: 50px;
+    }
+  
+    .cardbox-text h1 {
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .cardbox-text p {
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+    }
+  }
