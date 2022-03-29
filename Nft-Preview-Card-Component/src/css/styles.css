@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+:root {
+  --main-BG: hsl(217, 54%, 11%);
+  --card-BG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+}
+body {
+  background-color: rgb(12, 24, 43);
+  background-color: linear-gradient(
+    0deg,
+    rgba(12, 24, 43, 1) 0%,
+    rgba(20, 36, 61, 1) 100%
+  );
+}
+
+.attribution {
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.card__design {
+  margin-top: 250px;
+  height: 575px;
+  width: 330px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 100px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card__img {
+  width: 290px;
+  border-radius: 7px;
+}
+
+.card__texts h1 {
+  margin-top: 16px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+
+.card__texts p {
+  margin-top: 16px;
+  text-align: left;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+}
+.card__texts hr {
+  margin-top: 26px;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(
+    to right,
+    hsl(215, 51%, 26%),
+    hsl(215, 51%, 26%),
+    hsl(215, 51%, 26%)
+  );
+}
+.card__ico {
+  margin-top: 20px;
+  display: flex;
+}
+.card__eth {
+  height: 18px;
+}
+.card__ico h2 {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(178, 100%, 50%);
+  margin-right: 100px;
+}
+.card__clock {
+  height: 18px;
+}
+.card__ico h3 {
+  margin-left: 7px;
+  font-weight: 500;
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+}
+.card__footer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.card__profile {
+  width: 35px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  text-align: left;
+}
+.card__creation {
+  margin-left: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+}
+
+.card__jules {
+  margin-left: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+}
